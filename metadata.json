@@ -1,0 +1,6 @@
+{
+  "name": "FLE 7e – Révision Examen & Compréhension",
+  "description": "Atelier d'étude interactif pour les élèves de 7e année FLE débutants : présent de l'indicatif, être/avoir, verbes en -er, vocabulaire des héros, compréhension écrite et compréhension orale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
