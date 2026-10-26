@@ -70,7 +70,8 @@ export const OTHER_ER_VERBS = [
   { inf: 'rester', es: 'quedarse', example: 'Elle reste à la maison', rule: 'elle reste' },
   { inf: 'arriver', es: 'llegar', example: "J'arrive au collège à sept heures", rule: "j' devant voyelle" },
   { inf: 'chanter', es: 'cantar', example: 'Tu chantes très bien', rule: 'tu chantes' },
-  { inf: 'détester', es: 'detestar / odiar', example: 'Je déteste les devoirs', rule: 'je déteste' }
+  { inf: 'détester', es: 'detestar / odiar', example: 'Je déteste les devoirs', rule: 'je déteste' },
+  { inf: 'casser', es: 'romper / quebrar', example: 'Le super-héros ne casse rien', rule: 'je casse' }
 ];
 
 export const VOCABULARY_DATA: VocabItem[] = [
@@ -83,6 +84,13 @@ export const VOCABULARY_DATA: VocabItem[] = [
   { id: 'h6', french: 'une légende', spanish: 'una leyenda', category: 'héros', example: 'Mulan est une héroïne de légende chinoise.' },
   { id: 'h7', french: 'un personnage', spanish: 'un personaje', category: 'héros', example: 'C’est un personnage de fiction.' },
   { id: 'h8', french: 'un prix', spanish: 'un premio', category: 'héros', example: 'L’artiste reçoit un grand prix.' },
+
+  // Actions & Vocabulaire utile
+  { id: 'a1', french: 'défendre', spanish: 'defender / proteger', category: 'actions', example: 'Le super-héros défend les citoyens et la ville.' },
+  { id: 'a2', french: 'apparaître', spanish: 'aparecer / manifestarse', category: 'actions', example: 'L’héroïne apparaît rapidement en cas de danger.' },
+  { id: 'a3', french: 'punir', spanish: 'castigar / sancionar', category: 'actions', example: 'La justice et la police punissent les méchants.' },
+  { id: 'a4', french: 'casser', spanish: 'romper / quebrar', category: 'actions', example: 'Attention à ne pas casser le masque du héros !' },
+  { id: 'a5', french: 'le droit', feminine: 'les droits', spanish: 'el derecho / las lois / la justicia', category: 'actions', example: 'Chaque personne a le droit d’être respectée et protégée.' },
 
   // Les qualités
   { id: 'q1', french: 'courageux', feminine: 'courageuse', spanish: 'valiente / animoso(a)', category: 'qualités', example: 'Elle est courageuse face au danger.' },

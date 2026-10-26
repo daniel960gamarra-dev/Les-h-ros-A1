@@ -28,7 +28,7 @@ export interface VocabItem {
   french: string;
   feminine?: string;
   spanish: string;
-  category: 'héros' | 'qualités' | 'défauts' | 'connecteurs';
+  category: 'héros' | 'qualités' | 'défauts' | 'connecteurs' | 'actions';
   example: string;
   audioText?: string;
 }

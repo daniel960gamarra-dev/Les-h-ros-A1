@@ -6,7 +6,7 @@ import { BookOpen, Sparkles, CheckCircle2, AlertCircle, Info, ChevronRight, Laye
 export const FichesView: React.FC = () => {
   const [selectedVerbIndex, setSelectedVerbIndex] = useState(0);
   const [customVerb, setCustomVerb] = useState(OTHER_ER_VERBS[0]);
-  const [activeVocabTab, setActiveVocabTab] = useState<'tous' | 'héros' | 'qualités' | 'défauts' | 'connecteurs'>('tous');
+  const [activeVocabTab, setActiveVocabTab] = useState<'tous' | 'héros' | 'actions' | 'qualités' | 'défauts' | 'connecteurs'>('tous');
   const [selectedSubject, setSelectedSubject] = useState<'je' | 'tu' | 'il' | 'nous' | 'vous' | 'ils'>('je');
 
   // Conjugate custom -er verb
@@ -295,13 +295,13 @@ export const FichesView: React.FC = () => {
               Vocabulaire Utile de l'Atelier
             </h3>
             <p className="text-xs text-slate-500 mt-1">
-              Les héros, qualités, défauts et connecteurs indispensables pour la compréhension et la rédaction.
+              Les héros, actions, qualités, défauts et connecteurs indispensables pour la compréhension et la rédaction.
             </p>
           </div>
 
           {/* Categories Tab Bar */}
           <div className="flex flex-wrap gap-1.5 p-1 bg-slate-100 rounded-xl">
-            {(['tous', 'héros', 'qualités', 'défauts', 'connecteurs'] as const).map((cat) => (
+            {(['tous', 'héros', 'actions', 'qualités', 'défauts', 'connecteurs'] as const).map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveVocabTab(cat)}
